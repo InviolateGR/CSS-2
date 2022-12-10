@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+form {
+    z-index: 100;
+    background-image: linear-gradient(rgba(8, 98, 88, 0.3), rgba(255, 168, 114, 0.3));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    font-size: large;
+    word-spacing: 3px;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.textBox {
+    background-color: rgba(12, 112, 110, 0.5);
+    height: 7rem;
+    width: 18rem;
+    text-align: justify;
+    color: white;
+    margin: 3px;
+    padding: 1rem;
+}
